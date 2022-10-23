@@ -1,9 +1,11 @@
+@import "styles/variables";
 .background{
     background-color: antiquewhite;
     padding: 15px 0;
 }
 h2{
     text-align: center;
+    color: $cor_principal;
 }
 .flex{
     h3{
@@ -21,4 +23,8 @@ h2{
             flex: 1;
         }
     }
+}
+.secao4_titulo{
+    margin-bottom: 10px;
+    
 }

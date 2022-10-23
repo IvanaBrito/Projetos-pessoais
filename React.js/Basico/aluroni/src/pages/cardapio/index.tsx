@@ -26,14 +26,14 @@ export default function Cardapio(){
                 <Buscador 
                     busca={busca} 
                     setBusca={setBusca}/>
-                    <div className={Styles.cardapio__filtros}>
-                        <Filtros 
-                            filtro={filtro} 
-                            setFiltro={setFiltro}
-                        />
-                        <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
-                    </div>
-                    <Itens busca={busca} filtro={filtro} ordenador={ordenador}/>
+                <div className={Styles.cardapio__filtros}>
+                    <Filtros 
+                        filtro={filtro} 
+                        setFiltro={setFiltro}
+                    />
+                    <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
+                </div>
+                <Itens busca={busca} filtro={filtro} ordenador={ordenador}/>
             </section>
         </main>
     )
