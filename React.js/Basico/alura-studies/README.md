@@ -1,46 +1,5 @@
-# Getting Started with Create React App
+## Alura Studies 📘
+#### Plataforma que registra a matéria ou campo de estudo e o tempo gasto nela. Possui um cronomêtro para o tempo de estudo. Primeiro projeto desenvolvido com react.js
+##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src='https://lh3.googleusercontent.com/fife/AAbDypBYBFc5qGbIA8qMD3e8HQqbg2Gn1LtYnH5psqENf43Y3NU94L_mYSDFcqO3Vacvr1IE1RjwKmL0iJBSh6fxKrOuyR6yg8Ax34tf5LOfBNIXXqhBwdRe8yeTCIopSgwUVikXjNF73vASGc5lytchmNa6u6OSWHybYjR9a5dCkLbhLh7cDhtRl7XdQDLMOa7_kNwAkGsbJpUw3L54KeStWEQ0nI9VbbDbMjLzjKvshWnVumJCX_c8KclfsZ4cFpi7tH5m9qijqmyzIMSAGnDnpJ7n1hVKLfnBSzubT_ludtVIpo6NEfcvsO-7sZYVjmLFalTnsAMpo_b1d1Rqe_dUE4EfY2gTUctePde-oKknANy5yhXii_jIUvM3qhEdVyFC2D9sFwk7Ja-EcevAlDrQfr1euOBdygrDWrS06pNWx1exv6yOdnlJrtkc5kN1ZhWcpKpy4qE01pPgr-uBh1c_TUw1q0zeNYi7l_OdAvaHSMDBo9sgzbpEwVlb8DTYD3A7bUq0XLn1pOBApoI5PGdAf6YBCqS1h3yztuSy0bJO21oToOPpwGNPXM957tfc6l0n13TKv8EBWfcC5c_hsmOyd9h-XglrM9iSmmkaTAifA9tG1NtcuoVXkSjqTHrooJLsKjmRPCBhZasEWoBgXVp0kJ6wmCDnusjhTbKRKjq4oTxEWojn7YjJR_fhNzdMfUTeN65LTUCvJuO3GcGV8iFwL85PQcQCOmKpEj-6jORza0gPckS-UNVVbg1_oUsnfuyGKlQ6XT0m_nuoLGvPHR7a8lzZ2O-y7W4GTH9wh348ca5gsio-0BAbFbKQ2YvcU6alUdr3753sxC2uxyiVPkFiYhhLXRHegVlgYMnBmc3VGhhcu8bwF5lVo6m2FUMY9dI4EPkSjwnej6cVaHVnusYK81ygjO6xlj0Mx2R-w4_iycXFHrs5hyWdv-9CYPqoK7MlWnyhzhxVI-lSsXjKItAuUfzkgC2D3BV6_DEonrfECfOuLjWlrL0jFlkhIOz-vVi1K2RZOdWIshDxL6_fQBLLN8Ycjh1wtG1i-0rXUxU9dVP-WrDe1-unuTvd9sL_BYh5JbHxowzLKWmDSFqQzGk5mwxp-1lcRzALy9y8mPF_E3hMLYcbaRrwIiqF0Jq8J2cS2IFSfD03bCK3zI_b18uRK_IHqnDfD3IkBFXiVXXlrLNbnqmJFCvRe1G_K_u25bxh5kQ4bueq0L06iiZa1tj3t_7GMcqNPyEiNsbW_QMU80tzD_n2PP6sEIbqPorkS-OzzCYv=w1366-h617'/>
