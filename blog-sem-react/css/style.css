@@ -1,0 +1,142 @@
+body {
+  background: #D9D9D9; }
+
+h1, h2, p, a {
+  color: #c7c7c7; }
+
+.container {
+  position: relative; }
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  top: 0;
+  z-index: 1;
+  overflow: hidden; }
+  header .row svg path {
+    fill: #c7c7c7; }
+  header .row > :last-child {
+    text-align: right;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header .row > :last-child svg {
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s; }
+    header .row > :last-child .menu {
+      position: relative;
+      height: 45px;
+      cursor: pointer; }
+      header .row > :last-child .menu > div {
+        width: 40px;
+        height: 8px;
+        border-radius: 10px;
+        border: 3.5px solid #c7c7c7;
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+        header .row > :last-child .menu > div.traco1 {
+          top: 5px; }
+        header .row > :last-child .menu > div.traco2 {
+          top: 17.5px; }
+        header .row > :last-child .menu > div.traco3 {
+          top: 30px; }
+  header.scroll .row > :last-child svg {
+    -webkit-transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    transform: translateY(-80px); }
+
+.conteudo {
+  background: #b581d5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b581d5), to(#5c2b6d));
+  background: -webkit-linear-gradient(top, #b581d5 0%, #5c2b6d 100%);
+  background: -o-linear-gradient(top, #b581d5 0%, #5c2b6d 100%);
+  background: linear-gradient(180deg, #b581d5 0%, #5c2b6d 100%);
+  height: 100vh;
+  padding: 90px 0 0px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .conteudo .meeting {
+    max-width: 450px;
+    margin: auto;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end; }
+    .conteudo .meeting p {
+      margin-bottom: 0;
+      font-size: 1.5rem; }
+    .conteudo .meeting h1 {
+      font-size: 5rem; }
+    .conteudo .meeting h2 {
+      font-size: 1.8rem; }
+  .conteudo .conjunto_nuvens {
+    overflow: hidden;
+    height: 60vh;
+    position: relative; }
+    @media (min-width: 1800px) {
+      .conteudo .conjunto_nuvens {
+        max-width: 1520px;
+        margin: auto;
+        width: 100%; } }
+    .conteudo .conjunto_nuvens > * svg {
+      position: absolute; }
+    .conteudo .conjunto_nuvens > *.nuvens_lilas svg {
+      width: 30%; }
+      .conteudo .conjunto_nuvens > *.nuvens_lilas svg:first-child {
+        left: 0;
+        top: 3vh; }
+      .conteudo .conjunto_nuvens > *.nuvens_lilas svg:last-child {
+        left: 73.75%;
+        top: 8vh; }
+      .conteudo .conjunto_nuvens > *.nuvens_lilas svg:nth-of-type(2) {
+        left: 25%;
+        top: 11vh; }
+      .conteudo .conjunto_nuvens > *.nuvens_lilas svg:nth-of-type(3) {
+        left: 50%;
+        top: 11vh; }
+    .conteudo .conjunto_nuvens > *.nuvens_brancas svg {
+      width: 40%; }
+      .conteudo .conjunto_nuvens > *.nuvens_brancas svg:first-child {
+        left: -5%;
+        bottom: 0vh; }
+      .conteudo .conjunto_nuvens > *.nuvens_brancas svg:last-child {
+        left: 65%;
+        bottom: 0; }
+      .conteudo .conjunto_nuvens > *.nuvens_brancas svg:nth-of-type(2) {
+        left: 20%;
+        bottom: 0; }
+      .conteudo .conjunto_nuvens > *.nuvens_brancas svg:nth-of-type(3) {
+        left: 42%;
+        bottom: 0; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
